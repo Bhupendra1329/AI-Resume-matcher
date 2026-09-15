@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+passlib[bcrypt]
+bcrypt==4.0.1
+pydantic
+pyjwt
+python-multipart
+python-dotenv
+spacy
+scikit-learn
+pypdf
+python-docx
