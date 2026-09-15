@@ -99,7 +99,7 @@ document.getElementById("logout-btn").addEventListener("click", () => {
 async function enterApp() {
   hide(document.getElementById("auth-screen"));
   show(document.getElementById("app-screen"));
-  document.getElementById("user-name-label").textContent = `👋 ${currentUser.name}`;
+  document.getElementById("user-name-label").textContent = `${currentUser.name}`;
   await loadDashboard();
   await loadApplications();
   await loadMatchHistory();
